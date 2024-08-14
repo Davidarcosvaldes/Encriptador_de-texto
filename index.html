@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="./ccs/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logos_David.png" alt="Logo">
+        </div>
+        <h1>Encriptador de Texto</h1>
+    </header>
+    <main>
+        <section class="content">
+            <textarea id="input-text" placeholder="Escriba el texto aquí..."></textarea>
+            <p>Solo introducir caracteres en minúsculas y sin acento</p>
+            <div class="buttons">
+                <button id="encrypt-btn">Encriptar</button>
+                <button id="decrypt-btn">Desencriptar</button>
+                
+            </div>
+            
+        </section>
+        <aside class="sidebar">
+            <img id="sidebar-image" src="img/lupa.jfif" alt="Imagen">
+            
+            <div id="sidebar-text">
+                <h2>Ningun mensaje fue <br> encontrado</h2>
+                <p>Ingesa el texto que deseas encriptar o <br> desencriptar</p>
+            </div>
+            <button id="copy-btn" style="display: none;">Copiar Texto </button>
+        </aside>
+    </main>
+    <footer>
+        <p> &copy;Reaizado por David Arcos Valdes</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
